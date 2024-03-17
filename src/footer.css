@@ -1,0 +1,59 @@
+.footerParent{
+    margin-top: 50px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-image: url("https://www.deeplearning.ai/_next/image/?url=%2Fimages%2Fhome%2Fhome-footer-cta-bg.webp&w=1200&q=75");
+}
+.child{
+    width: 50%;
+}
+.child h1{
+    padding-top: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: center;
+}
+.footerParent2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#455B66;
+    width: 100%;
+    height: max-content;
+    height: 150px;
+}
+.footerParent2 a{
+    color:#ffffff;
+    text-align:center;
+}
+.footerParent2 ul{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color:#EE414D;
+    list-style: none;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+.footerParent2 ul:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1187px) {
+    .child{
+        width: 80%;
+    }
+    .child h1{
+        font-size: 5vw;
+    }
+    
+}

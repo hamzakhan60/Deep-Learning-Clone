@@ -1,0 +1,26 @@
+.card{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+.card-text{
+    padding-top: 5px;
+    font-size: 18px;
+}
+.cardBtn{
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #237b94;
+    color: white;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+    
+}
