@@ -9,17 +9,19 @@ import NewsLetter from './NewsLetters.jsx';
 import './index.css'
 import Resources from './Resources.jsx';
 import Footer from './footer.jsx';
+import ShortCoursesCard from './ShortCoursesCard.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <Header/>  
-     <Login/> 
+      {/* <Header/>  */}
+      <ShortCoursesCard/> 
+     {/* <Login/> 
      <CourseAdd selection="1"/> 
      <CollaborationSlide/> 
       <CourseAdd selection="2"/> 
       <NewsLetter/>
       <Resources/>
-      <Footer/>
+      <Footer/> */}
 
 
   </React.StrictMode>,
