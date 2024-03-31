@@ -13,7 +13,7 @@ import ShortCoursesCard from './ShortCoursesCard.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      {/* <Header/>  */}
+       <Header/>  
       <ShortCoursesCard/> 
      {/* <Login/> 
      <CourseAdd selection="1"/> 
